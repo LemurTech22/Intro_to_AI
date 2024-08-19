@@ -1,1 +1,88 @@
-Notes only 1st lecture
+GOATED Sin Lin.
+
+Course Info: 2 programming sets 20% each (40% total)
+
+Two midterms: open note/book 15% (30% total)
+
+Group Project(27%) No extenstions
+
+    proposol(5%)
+
+    presentation(10%) 11/20 & 11/25 (last two class days)
+
+Final report (12%) 12/9
+
+Attendence(3%)
+
+
+Launch...
+
+Progress report after 2nd problem set or midterm
+
+
+
+Intro to AI:
+
+What is AI? there are multiple definitoins of it like systems that thinklike humans, rationally, behave like humans, and rationally.
+
+Modern Definition: Bramnch of CS Eng and MAth that aims to create machines and software capable of tasks that require human intelligence.
+
+
+History??: Alan Turing UTM and Turing test or imitation game<<< what do these test do?>
+
+Claude Shannon Information Theory, Notion of Boolean algebra and digital circuits. 
+Darmouth Conference (Birthplace of AI) no major concepts were made but it introduced major aspects of AI
+
+EARLY SUCCESS checkers(1952)Learned about weights , and problem solving 
+
+1960-2000 AI Winer issues were limited computation search space grew exponentially and information as we introduced more difficult questions
+
+
+70's-80's Knowlegde based systems 
+    expert systems encodes the domain to form if-then rules
+
+    Wins narrow system in targeted domains
+    issues: rules cannot scale outside to reality
+    Rules become to complexto create and maintain
+
+2nd winter: 
+
+2010 Ai mainstream: computers faster and cheaper and data become less scarce.Booming in ML
+
+2016-present Deep learning and Reinforcement learning-- created a breakthrough in deep neural networks. 
+
+
+"Hierarchical Representation learning": representing data and its time consuming 
+deep neural netowrks extract features and grabs those features like lines and nose, ears etc to create a face structure or object. To low level featurees like lines and edges midlevel eyes  and high level objects
+
+Forces of AI Big Data larger datasets , Hardware larger model sizes , software
+
+
+SEARCH Route finding a sequence of actions that'll take us from source to desintations.
+
+Search Algo- search space reduction ording, and simplications of computations
+
+
+Object Detections: Object localization finding features in an image then use Image Classifcation to predict what type of object the item is.
+
+Image Generations 
+
+Speech Recognition and Machine Translation
+
+Text Generation predicting the next word in a sentence.
+
+Control perform task in a environment this requires 
+planning 
+multi-agents systems, 
+Searching 
+Reasoning in Uncertain Environment 
+machine Learning 
+Computer Vision.
+
+Aritifical Narrow Intelligence vs Aritficial General Intelligence
+AI paradox. There are problems hard for humans but Easy for AI. Also there are problems that are easy for humans but hard for AI. this depends on the tasks given to the AI using one of the intelligence.
+
+
+
+
+AI is a broad concept and each subfields 
