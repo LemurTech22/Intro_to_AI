@@ -1,0 +1,93 @@
+- The warehouse is at (0, 0) and the customer's home is at (2, 3).
+- Travel time (cost) between nodes is shown between the intersections.
+
+Task for You:
+1. Implement the A* search algorithm to find the fastest route from the warehouse (0, 0) to the
+customer’s home (2, 3) using travel times as the cost and Euclidean distance as the heuristic.
+2. Test the algorithm by simulating different traffic conditions:
+- Increase or decrease the travel times between intersections to simulate high traffic on certain
+roads.
+- Test how the route changes based on the updated traffic conditions.
+3. Output:
+- The optimal path from the warehouse to the customer’s home.
+- The total travel time along the optimal path.
+- A comparison of travel times with different traffic conditions.
+
+
+Task 3
+Randomized Hill Climbing (RHC) for Resource Allocation
+Problem Description:
+You are tasked with optimizing the allocation of resources to various projects within a company
+named Daily Planet. Each project has specific requirements and constraints, and you need to
+maximize or minimize the overall benefit while adhering to the constraints.
+
+
+
+
+Assignment Tasks:
+1. Implement Randomized Hill Climbing
+● Implement the Randomized Hill Climbing algorithm in Python.
+● Test your implementation on a simple function optimization problem to ensure it works
+correctly.
+
+
+
+Example Objective Functions:
+● Minimization Function: A common function used in optimization problems for
+minimization is a quadratic function like where x is an integer:
+f(x)=(x−3)2
+This function has a global minimum at x=3.
+● Maximization Function: A common function for maximization is a negative quadratic or
+a simple sine function like where x is an integer:
+f(x)=−x2+5
+This function has a global maximum at x=0.
+
+
+
+2. Resource Allocation Problem
+You are given multiple test cases for resource allocation. For each test case, you need to apply
+RHC to determine the best allocation of resources to maximize or minimize overall benefit while
+respecting the constraints.
+
+
+Test Case Description:
+● Resources: A total of 100 units of resource available.
+● Projects: Each test case includes a list of projects with the following attributes:
+○ Project ID
+○ Resource Requirement (units of resource required for the project)
+○ Benefit/ Est. Time (value of benefit or estimate time if the project is allocated the
+required resources)
+Constraints:
+
+● You can allocate resources to a project only if you have enough resources available.
+● The total amount of resources allocated must not exceed the total available (100 units).
+Test Cases:
+
+
+1. Test Case 1:
+○ Projects:
+■ Project 1: Requires 20 units, Benefit = 40
+■ Project 2: Requires 30 units, Benefit = 50
+■ Project 3: Requires 25 units, Benefit = 30
+■ Project 4: Requires 15 units, Benefit = 25
+○ Objective: Maximize the total benefit.
+
+
+
+2. Test Case 2:
+○ Projects:
+■ Project A: Requires 10 units, Est. Time = 15
+■ Project B: Requires 40 units, Est. Time = 60
+■ Project C: Requires 20 units, Est. Time = 30
+■ Project D: Requires 25 units, Est. Time = 35
+■ Project E: Requires 5 units, Est. Time = 10
+○ Objective: Minimize the total Est. Time.
+
+
+3. Test Case 3:
+○ Projects:
+■ Project X: Requires 50 units, Benefit = 80
+■ Project Y: Requires 30 units, Benefit = 45
+■ Project Z: Requires 15 units, Benefit = 20
+■ Project W: Requires 25 units, Benefit = 35
+○ Objective: Maximize the total benefit

@@ -1,0 +1,53 @@
+Scenario:
+Imagine you're working for a delivery company named Wayne Enterprise, and your task is to
+deliver packages to multiple locations in Gotham city. The city is represented as a grid, where
+each intersection is a node and each road segment between intersections is an edge. The
+roads have varying travel times due to factors like traffic, construction, or road quality. The goal
+is to find the optimal delivery route from the company’s warehouse to a customer's home while
+minimizing the travel time.
+
+
+
+Problem Setup:
+- Nodes: Each intersection in the city grid (represented by coordinates).
+- Edges: The roads between intersections with travel times (weights) associated with them.
+- Start Node: The warehouse location.
+- Goal Node: The customer’s home location.
+- Cost: The time taken to travel between intersections (edge weights).
+- Heuristic (h): The straight-line distance (Euclidean distance) between the current location and
+the goal location (customer's home).
+
+
+
+
+Steps:
+1. Formulate the Problem:
+- Create a grid (e.g., 5x5) where each intersection is a node.
+- Assign a travel time (cost) to each road segment between intersections. Some roads may
+have higher travel times due to factors like traffic or construction.
+2. A* Algorithm:
+- Use the A* search algorithm to find the shortest time path from the warehouse (start node) to
+the customer’s home (goal node).
+- The algorithm should prioritize routes that minimize both the travel time and the estimated
+distance to the goal.
+Example Grid Layout:
+
+
+Consider the grid below, where each node represents an intersection and the numbers between
+nodes represent travel times (in minutes).
+- The warehouse is at (0, 0) and the customer's home is at (2, 3).
+- Travel time (cost) between nodes is shown between the intersections.
+
+
+
+Task for You:
+1. Implement the A* search algorithm to find the fastest route from the warehouse (0, 0) to the
+customer’s home (2, 3) using travel times as the cost and Euclidean distance as the heuristic.
+2. Test the algorithm by simulating different traffic conditions:
+- Increase or decrease the travel times between intersections to simulate high traffic on certain
+roads.
+- Test how the route changes based on the updated traffic conditions.
+3. Output:
+- The optimal path from the warehouse to the customer’s home.
+- The total travel time along the optimal path.
+- A comparison of travel times with different traffic conditions.

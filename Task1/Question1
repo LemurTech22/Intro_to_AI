@@ -1,0 +1,45 @@
+Task 1
+Peter's Journey to Solve City and Network Problems
+
+
+
+Background:
+Peter Parker is a computer science intern student working on a project in Stark industry.
+Professor Bruce Banner has tasked Peter with solving real-world problems using Breadth-First
+Search (BFS) and Depth-First Search (DFS).
+
+
+
+City Road Network - Finding Shortest Paths
+Peter lives in a large city (Queens) with a complex road network. Their challenge is to help the
+city's transportation department find the shortest routes from a central location to every other
+important spot in the city. This is crucial for optimizing delivery routes for local businesses.
+
+
+
+Problem:
+The city's road intersections are nodes, and roads between intersections are edges. Peter
+needs to use BFS and DFS to determine the shortest path from the central intersection to all
+others and compare the both algorithms.
+
+
+Peter’s Plan:
+- To calculate the shortest paths in the city road network.
+
+
+Solving the City Road Network Problem with BFS & DFS
+Peter models the city as a graph, where each intersection is a node and roads between
+intersections are edges. The task is to find the shortest path from the city center (node 0) to 7,5
+& 6 intersections.
+
+
+Graph Input:
+Peter should use the BFS and DFS approaches to find the most efficient routes for 7,5 & 6
+intersections (edges).
+
+
+Conclusion:
+Through this project, Peter learned how to use BFS and DFS for different real-world
+applications. BFS helped find the shortest paths in a city road network, while DFS was essential
+for exploring the university's computer network for connectivity. They tested different scenarios,
+from small to complex graphs, ensuring their algorithms worked efficiently
